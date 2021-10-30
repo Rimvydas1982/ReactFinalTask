@@ -1,8 +1,10 @@
 import React from 'react';
 import Button from './Button';
 import Form from './Form';
+//React icons
 import { FcGoogle } from 'react-icons/fc';
 import { RiFacebookCircleLine } from 'react-icons/ri';
+//Style
 import {
   FormRegWrapper,
   StyledP2,

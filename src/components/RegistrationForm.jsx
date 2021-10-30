@@ -1,5 +1,4 @@
 import React from 'react';
-
 import FormLogo from './FormLogo';
 import FormReg from './FormReg';
 //styles
