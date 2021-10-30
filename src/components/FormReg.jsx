@@ -3,15 +3,20 @@ import Button from './Button';
 import Form from './Form';
 import { FcGoogle } from 'react-icons/fc';
 import { RiFacebookCircleLine } from 'react-icons/ri';
-import { FormRegWrapper, StyledP, BuutonWrapper } from './FormReg.style';
+import {
+  FormRegWrapper,
+  StyledP2,
+  StyledP1,
+  BuutonWrapper,
+} from './FormReg.style';
 
 const FormReg = () => {
   return (
     <>
       <FormRegWrapper>
         <h1>Get started</h1>
-        <p>Already have an account?</p>
-        <StyledP>Log In</StyledP>
+        <StyledP1>Already have an account?</StyledP1>
+        <StyledP2>Log In</StyledP2>
         <BuutonWrapper>
           <Button logo={<FcGoogle size={15} />} text={` sign up`} primary />
           <Button

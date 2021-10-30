@@ -1,12 +1,11 @@
 import styled from 'styled-components';
 
 export const FormWpapper = styled.div`
-  margin: 20px;
   border-radius: 5px;
   border: 1px solid red;
 
   display: flex;
-  width: 60%;
+  width: 90%;
   margin: 0 auto;
 `;
 

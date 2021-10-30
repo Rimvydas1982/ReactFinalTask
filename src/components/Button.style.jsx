@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const StyledButton = styled.button`
-  padding: 10px 50px;
+  padding: 0px 50px;
   margin-left: 10px;
 
   font-family: 'Poppins', sans-serif;

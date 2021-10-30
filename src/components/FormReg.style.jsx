@@ -4,8 +4,13 @@ export const FormRegWrapper = styled.div`
   font-family: 'Poppins', sans-serif;
   padding-top: 50px;
 `;
-export const StyledP = styled.p`
-  padding-top: 2px;
+export const StyledP1 = styled.p`
+  padding: 0;
+  margin-bottom: 0;
+`;
+
+export const StyledP2 = styled.p`
+  margin-top: 5px;
   color: #f2877d;
 `;
 

@@ -24,16 +24,18 @@ const Form = () => {
             type='text'
             required
             value={signupName}
+            placeholder='♙ Joy Shaleb'
             onChange={(e) => setSignupName(e.target.value)}
           />
         </div>
         <div>
-          <StyledLabel htmlFor='email'>Email</StyledLabel>
+          <StyledLabel htmlFor=' email'>Email</StyledLabel>
           <br />
           <StyledInput
             type='email'
             required
             value={signupEmail}
+            placeholder='✉ abc@gmail.com'
             onChange={(e) => setSignupEmail(e.target.value)}
           />
         </div>
@@ -44,6 +46,7 @@ const Form = () => {
             type='password'
             required
             value={signupPassword}
+            placeholder='♯ ********'
             onChange={(e) => setSignupPassword(e.target.value)}
           />
         </div>
