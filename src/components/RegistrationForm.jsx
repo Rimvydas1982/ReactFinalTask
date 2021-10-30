@@ -1,14 +1,19 @@
 import React from 'react';
+
 import FormLogo from './FormLogo';
+import FormReg from './FormReg';
+//styles
+import { FormWpapper, SignUpWrapper } from './RegistrationForm.style';
 
 const RegistrationForm = () => {
   return (
-    <>
-      <div>
-        <FormLogo />
-      </div>
-      <div>desine</div>
-    </>
+    <FormWpapper>
+      <FormLogo />
+
+      <SignUpWrapper>
+        <FormReg />
+      </SignUpWrapper>
+    </FormWpapper>
   );
 };
 

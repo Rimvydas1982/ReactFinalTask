@@ -15,10 +15,10 @@ const Form = () => {
   const [signupPassword, setSignupPassword] = useState('');
   return (
     <>
-      <StyledH2>Sign up</StyledH2>
+      <StyledH2>Or</StyledH2>
       <StyledForm>
         <div>
-          <StyledLabel htmlFor='name'>Your name</StyledLabel>
+          <StyledLabel htmlFor='name'>Name</StyledLabel>
           <br />
           <StyledInput
             type='text'
@@ -28,7 +28,7 @@ const Form = () => {
           />
         </div>
         <div>
-          <StyledLabel htmlFor='email'>Your email</StyledLabel>
+          <StyledLabel htmlFor='email'>Email</StyledLabel>
           <br />
           <StyledInput
             type='email'
@@ -38,7 +38,7 @@ const Form = () => {
           />
         </div>
         <div>
-          <StyledLabel htmlFor='password'>Your password</StyledLabel>
+          <StyledLabel htmlFor='password'>Password</StyledLabel>
           <br />
           <StyledInput
             type='password'
@@ -48,7 +48,7 @@ const Form = () => {
           />
         </div>
         <div>
-          <StyledSubmit type='submit' value='Sign Up' />
+          <StyledSubmit type='submit' value='Submit' />
         </div>
       </StyledForm>
     </>

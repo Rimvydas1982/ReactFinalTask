@@ -4,7 +4,7 @@ export const StyledFormLogo = styled.div`
   font-family: 'Poppins', sans-serif;
   background: #f2877d;
   padding: 20px;
-  height: 800px;
+  height: 750px;
   width: 500px;
 
   h1 {
@@ -14,6 +14,7 @@ export const StyledFormLogo = styled.div`
 
 export const StyledOffer = styled.div`
   padding-top: 40px;
+
   h2 {
     text-align: center;
     margin: 0;
