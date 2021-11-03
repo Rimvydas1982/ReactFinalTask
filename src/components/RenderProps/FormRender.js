@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 const FormRender = ({ render }) => {
   //Hooks
@@ -9,15 +9,28 @@ const FormRender = ({ render }) => {
   const [inputPassword, setInputPassword] = useState('');
 
   //Custom functions
-  const validation = () => {
+  const validation = (e) => {
+    e.preventDefault();
     if (!inputName || !inputEmail || !inputPassword) {
       setMessage('Please provide all information');
     } else {
       setMessage('You sign up successufuly');
+      setInputName('');
+      setInputEmail('');
+      setInputPassword('');
     }
   };
 
-  return render(message, validation);
+  return render(
+    message,
+    inputName,
+    inputEmail,
+    inputPassword,
+    setInputName,
+    setInputEmail,
+    setInputPassword,
+    validation
+  );
 };
 
 export default FormRender;

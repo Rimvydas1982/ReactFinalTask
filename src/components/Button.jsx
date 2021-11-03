@@ -1,4 +1,5 @@
 import React from 'react';
+//--styles
 import { StyledButton } from './Button.style';
 
 const Button = ({ logo, text, action, primary, secondary }) => {

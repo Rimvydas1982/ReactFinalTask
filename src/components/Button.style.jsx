@@ -9,7 +9,6 @@ export const StyledButton = styled.button`
   border-radius: 5px;
   border: ${(props) =>
     props.primary ? '1px solid grey' : props.secondary ? 'none' : 'blue'};
-
   background-color: ${(props) =>
     props.primary ? '#fff' : props.secondary ? '#4F70B5' : 'blue'};
   color: ${(props) =>

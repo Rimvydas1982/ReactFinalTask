@@ -8,7 +8,6 @@ const RegistrationForm = () => {
   return (
     <FormWpapper>
       <FormLogo />
-
       <SignUpWrapper>
         <FormReg />
       </SignUpWrapper>
