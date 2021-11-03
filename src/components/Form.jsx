@@ -4,6 +4,7 @@ import {
   StyledInput,
   StyledLabel,
   StyledSubmit,
+  StyledMessage,
 } from './Form.style';
 import FormRender from './RenderProps/FormRender';
 
@@ -53,10 +54,11 @@ const Form = () => {
                 onChange={(e) => setInputPassword(e.target.value)}
               />
             </div>
+
             <div>
               <StyledSubmit type='submit' value='Submit' />
             </div>
-            {message && <p>{message}</p>}
+            {message && <StyledMessage>{message}</StyledMessage>}
           </StyledForm>
         )}
       />

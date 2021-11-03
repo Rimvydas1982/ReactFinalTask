@@ -8,6 +8,7 @@ export const StyledH2 = styled.h2`
 `;
 
 export const StyledForm = styled.form`
+  padding-top: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -22,7 +23,7 @@ export const StyledInput = styled.input`
   margin-top: 10px;
   padding: 5px 0;
   margin-bottom: 15px;
-  width: 95%;
+  width: 100%;
   height: 20px;
   border: 2px solid rgb(128, 128, 128, 0.5);
   border-radius: 5px;
@@ -35,10 +36,15 @@ export const StyledSubmit = styled.input`
   font-weight: 600;
   padding: 10px;
   font-size: large;
-  width: 95%;
+  width: 100%;
   background-color: #f2877d;
   color: white;
   &:hover {
     cursor: pointer;
   }
+`;
+export const StyledMessage = styled.p`
+  text-align: center;
+  font-weight: 600;
+  font-style: italic;
 `;

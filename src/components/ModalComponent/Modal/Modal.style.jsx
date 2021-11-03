@@ -23,14 +23,15 @@ export const ModalWrapper = styled.div`
 `;
 
 export const StyledModal = styled.div`
-  padding: 10px;
   background-color: white;
+  border-radius: 5px;
 `;
 
 export const CloseButtonWrapper = styled.div`
   display: flex;
   justify-content: flex-end;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  margin-right: 5px;
 `;
 
 export const CloseButton = styled.span`

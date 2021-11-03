@@ -13,8 +13,15 @@ const FormRender = ({ render }) => {
     e.preventDefault();
     if (!inputName || !inputEmail || !inputPassword) {
       setMessage('Please provide all information');
+    } else if (
+      inputName.length < 5 ||
+      inputName.charAt(0) !== inputName.charAt(0).toUpperCase()
+    ) {
+      setMessage(
+        'Name must be at least five letters long and first letter capital'
+      );
     } else {
-      setMessage('You sign up successufuly');
+      setMessage('You sign up successfully');
       setInputName('');
       setInputEmail('');
       setInputPassword('');
